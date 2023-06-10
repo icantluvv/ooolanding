@@ -1,3 +1,6 @@
+import React from 'react';
+import './index.css';
+
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
@@ -5,7 +8,6 @@ import Main from "./components/Main/Main";
 function App() {
   return (
     <>
-      <p>ghgdghdgfdg</p>
       <Header/>
       <Main/>      
       <Footer/>

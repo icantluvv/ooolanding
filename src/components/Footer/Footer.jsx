@@ -1,9 +1,11 @@
 import React from 'react';
-
+import './Footer.module.css'
 const Footer = () => {
     return (
         <div>
-            <footer className="App-header" style = {{background: 'grey', minHeight:'100vh', display: 'flex', flexDirection:'column'}}> Footer </footer>
+            <footer> Footer </footer>
+
+            
         </div>
     )
 }

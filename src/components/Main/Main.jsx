@@ -7,15 +7,14 @@ const Main = () => {
     return (
         <div>
             <main>
-                <div className={styles.container1}>
-                    <img src="/assets/images/back.png" alt="back" className={styles.back}/>
-                    <div >sdk;asmdamsdmsa;m</div>
+                <div className={styles.imagecontainer}>
+                    {/* <img className={styles.png} src='../Main/back.png'></img> */}
+                    <div className={styles.conttext}>
+                        <h1 className={styles.title}>КЛИНИНГОВЫЕ УСЛУГИ В РОСТОВЕ-НА-ДОНУ ДЛЯ КВАРТИР, ЧАСТНЫХ ДОМОВ, ОФИСОВ</h1>
+                    </div>
                 </div>
 
-                <div className={styles.container2}>
-
-                </div>
-            
+                
             </main>
         </div>
 

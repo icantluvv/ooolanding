@@ -1,7 +1,15 @@
+main{
+    
+    width: 100%;
+    margin-top: 4rem;
 
+}
 .back{
+    background-color: white;
+    /* background-image: url('./back.png'); */
     display: flex;
-    justify-content: center;
-    width: 100%;}
-
+    max-width: 80em;
+    min-width: 100%;
+    margin-top: 2em;
+}
 

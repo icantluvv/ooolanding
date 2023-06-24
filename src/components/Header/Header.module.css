@@ -1,86 +1,150 @@
-*{
-    padding: 0;
-    margin: 0;
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: black;
+    padding-right: 20rem;
+    padding-left: 20rem;
 }
 
-a{
-    text-decoration: none;
-}
+  .container{
+    display: flex;
+    flex-direction: row ;
+  }
 
-header{
-
-    background: white;
-    width: 100%;
-
-}
-
-.blocklogo{
-    margin-left: auto;
-    margin-right: auto;
+  .sources{
     display: flex;
     justify-content: center;
-    width: 80em;
-}
+    align-items:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    /* margin-bottom: 2rem; */
+  }
 
-.logo{
-    margin-top: 1.5em;
-    height: 2em;
-
-}
-
-
-.blockpolosa{
-    margin-left: auto;
-    margin-right: auto;
+  .burger{
+    width: 40em;
+    margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-flow: row wrap;
-    height: 2em;
-    width: 80em;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+  }
+  
+  a{
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+    /* height: 20px; */
+  }
+  
+  .burger h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+  
+
+  hr{
+    color: white !important;
+    width: 100%;
+  }
+
+
+
+@media  only screen and (max-device-width:1023px){
+    .header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: black;
+        padding-right: 15rem;
+        padding-left: 15rem;
+    }
+    .burger h4{
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 0.9rem;
+    }
 }
-.polosa{
-    border-bottom: 1px solid #000000;
-    width: 80em;
-}   
 
-.container2{
-    /* border: 10px solid #7f00ff; */
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        height: 3em;
-        width: 80em;
-        
+@media  only screen and (max-device-width:849px){
+    .header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: black;
+        padding-right: 12rem;
+        padding-left: 12rem;
     }
-
-div{
-        color: #000000;
+    .burger h4{
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 0.9rem;
     }
-
-    .about{
-        width: 9em;
-        color: #000000;
-    }
-
-    .type{
-        width: 12em;
-        color: #000000;
-    }
-
-    .contact{
-        width: 11em;
-        color: #000000;
-    }
-
-    .feedback{
-        width: 4.5em;
-        color: #000000;
-    }
+}
 
 
+@media  only screen and (max-device-width:746px){
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    padding-left: 2em;
+}
 
-    
+  .container{
+    display: flex;
+    flex-direction: row ;
+  }
+
+  .sources{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: left;
+    /* margin-bottom: 2rem; */
+  }
+
+  .burger{
+    width: 40em;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+  }
+  
+  a{
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+  }
+  
+  .burger h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+
+  .about{
+    width: 3em;
+  }
+
+  .types{
+    width: 6em;
+  }
+  .contacts{
+    width: 5.4em;
+  }
+  .os{
+    width: 4.2em;
+  }
+}

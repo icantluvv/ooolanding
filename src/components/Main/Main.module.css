@@ -1,4 +1,4 @@
-.imagecontainer{
+/* .imagecontainer{
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -6,10 +6,9 @@
     align-content: center;
     background-image: url('../Main/back.png');
     height: 100vh;
-    /* width: 80em; */
+
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-position: center; */
+
 
 }
 
@@ -21,12 +20,4 @@
     margin-right: auto;
     width: 80em;
     border: 1px solid crimson;
-}
-/* .title{
-    margin-top: 3.3em;
-    width: 17em;
-    margin-right: 11.7em;
-    color: white;
-    font-size: 35px;
-
 } */

@@ -1,19 +1,18 @@
 import React from 'react';
-import './index.css';
+import styles from './index.css';
 
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
-import Body from "./body/Body";
+import Footer from "./components/Footer/Footer";
+// import Body from "./body/Body";
 
 function App() {
   return (
     <>
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         <Header/>
-        {/* <Main/>       */}
-        <Body/>
-        <Footer/>
+        <Main/>      
+        <Footer className={styles.footermain}/>
       </div>
     </>
   );

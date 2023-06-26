@@ -2,5 +2,9 @@
     height: 100%;
     width: 100%;
     background-color: rgb(146, 238, 248);
-    overflow: scroll;
+    overflow: hidden;
+}
+
+body {
+    font-family: Helvetica;
 }

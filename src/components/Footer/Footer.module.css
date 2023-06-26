@@ -1,10 +1,13 @@
-
+body{
+  position: relative;
+}
 .footer{
-  position: fixed;
-  left: 0;
+  /* display: flex;
+  flex-direction: column; */
+  /* position: fixed; */
   right: 0;
   bottom: 0;
-  
+  left: 0;
   background-color: black;
   padding-right: 20rem;
   padding-left: 20rem;
@@ -89,7 +92,7 @@ hr{
     line-height: 15px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 13em;
   }
   
   .lines h4{
@@ -123,7 +126,7 @@ hr{
     line-height: 15px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 13em;
   }
   
   .lines h4{
@@ -153,16 +156,16 @@ hr{
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 13em;
   }
   
   .lines h4{
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 15px;
     margin-bottom: 0.7rem;
   }
   
@@ -189,7 +192,7 @@ hr{
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 13em;
   }
   
   .lines h4{
@@ -211,27 +214,33 @@ hr{
 
 @media  only screen and (max-device-width:928px){
   .footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: black;
-    padding-right: 12rem;
-    padding-left: 12rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right:0;
   }
   .footer .sources{
     margin-bottom: 5em;
+    justify-content: space-around;
+
   }
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 13px;
+    line-height: 15px;
     margin: 0.4rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 13em;
   }
   
   .lines h4{
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 15px;
     margin-bottom: 0.3rem;
   }
   .socialmedia{
@@ -256,22 +265,26 @@ hr{
 
 @media  only screen and (max-device-width:748px){
   .footer{
-
-    /* padding-top: 0; */
-    /* padding-bottom:0 ; */
-    padding-right: 20em;
-    padding-left: 20em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0em;
+    padding-right:0em ;
   }
 
   .sources{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   .lines p{
@@ -280,7 +293,7 @@ hr{
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 10em;  
   }
   
   .lines h4{
@@ -298,16 +311,19 @@ hr{
   .socialmedia img{
     width: 50%;
   }
+  
 
 }
 
 @media  only screen and (max-device-width:320){
   .footer{
-
-    /* padding-top: 0; */
-    /* padding-bottom:0 ; */
-    padding-right: 5em;
-    padding-left: 5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .lines{
     width: 100%;
@@ -325,9 +341,9 @@ hr{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 200em;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   .lines p{
@@ -336,7 +352,7 @@ hr{
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
-    width: 12em;
+    width: 17em;
   }
   
   .lines h4{
@@ -354,6 +370,7 @@ hr{
   .socialmedia img{
     width: 50%;
   }
+
 
 }
 

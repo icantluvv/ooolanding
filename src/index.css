@@ -16,7 +16,15 @@ html, body{
     padding: 0;
 }
 
-
+h1{
+    font-weight: 500;
+}
+h4{
+    font-weight: 500;
+}
+p{
+    font-weight: 500;
+}
 
 Main{
     flex: auto;

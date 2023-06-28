@@ -1,10 +1,13 @@
 body{
   position: relative;
 }
+
+
 .footer{
   /* display: flex;
   flex-direction: column; */
-  /* position: fixed; */
+  /* position: absolute; */
+  /* position: absolute; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -45,7 +48,7 @@ a{
 
 .socialmedia{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .socialmedia img{
@@ -54,7 +57,7 @@ a{
 }
 
 .lines h4{
-  font-size: 14px;
+  font-size: 17px;
   line-height: 17px;
   margin-bottom: 0.9rem;
 }
@@ -62,7 +65,7 @@ a{
 
 .lines p{
   color: rgb(175, 175, 179);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 15px;
   margin: 0.5rem 0;
   cursor: pointer;
@@ -84,40 +87,59 @@ hr{
     padding-left: 15rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    
   }
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 13em;
+    width: auto;
   }
-  
+  a{
+    width: auto;
+  }
   .lines h4{
-    font-size: 16px;
+    font-size: 17px;
     line-height: 17px;
     margin-bottom: 0.9rem;
   }
   
   .socialmedia img{
-    width: 15%;
+    width: 50%;
   
   }
-  
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
 
 @media screen and (min-width: 1280px) and (max-width: 1369px) {
   .footer{
+    /* position: absolute; */
     height: 34,875rem;
     background-color: black;
     padding-right: 12rem;
     padding-left: 12rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+
   }
 
   .lines p{
@@ -126,17 +148,19 @@ hr{
     line-height: 15px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 13em;
+    width: auto;
   }
-  
+  a{
+    width: auto;
+  }
   .lines h4{
     font-size: 16px;
-    line-height: 17px;
+    line-height: 20px;
     margin-bottom: 0.9rem;
   }
   
   .socialmedia img{
-    width: 15%;
+    width: 50%;
   
   }
   
@@ -146,6 +170,7 @@ hr{
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .footer{
+    /* position: absolute; */
     height: 34,875rem;
     background-color: black;
     padding-right: 8rem;
@@ -160,7 +185,7 @@ hr{
     line-height: 16px;
     margin: 0.5rem 0;
     cursor: pointer;
-    width: 13em;
+    width: auto;
   }
   
   .lines h4{
@@ -170,7 +195,7 @@ hr{
   }
   
   .socialmedia img{
-    width: 15%;
+    width: 50%;
   
   }
 }
@@ -184,6 +209,7 @@ hr{
     padding-left: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    /* position: absolute; */
   }
 
   .lines p{
@@ -192,7 +218,7 @@ hr{
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
-    width: 13em;
+    width: auto;
   }
   
   .lines h4{
@@ -200,21 +226,23 @@ hr{
     line-height: 15px;
     margin-bottom: 0.7rem;
   }
-
-  .socialmedia{
-    width: 1.5em;
-  }
-  .socialmedia p{
-    width: 2em;
-  }
-  .socialmedia img{
-    width: 1.5em;
-  }
+a{
+  width: auto;
+}
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.socialmedia img{
+  width: 50%;
+}
 }
 
 @media  only screen and (max-device-width:928px){
   .footer{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
@@ -235,9 +263,11 @@ hr{
     line-height: 15px;
     margin: 0.4rem 0;
     cursor: pointer;
-    width: 13em;
+    width: auto;
   }
-  
+  a{ 
+    width: auto;
+  }
   .lines h4{
     font-size: 14px;
     line-height: 15px;
@@ -246,26 +276,19 @@ hr{
   .socialmedia{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 8em;
+    align-content: center;
+    width: 100%;
   }
   .socialmedia img{
-    width: 60%;
+    width: 50%;
   }
-  .socialmedia p{
-    width: 3em;
-  }
-
-  }
-  .yt{
-    height: 20px;
   }
 
 
 @media  only screen and (max-device-width:748px){
   .footer{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
@@ -293,7 +316,7 @@ hr{
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
-    width: 10em;  
+    width: auto;  
   }
   
   .lines h4{
@@ -302,14 +325,19 @@ hr{
     margin-bottom: 0.3rem;
     
   }
+  a{width: auto;}
+
   .socialmedia{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
+    
+  
     width: 100%;
   }
   .socialmedia img{
-    width: 50%;
+    width: 40%;
   }
   
 
@@ -317,7 +345,7 @@ hr{
 
 @media  only screen and (max-device-width:320){
   .footer{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
@@ -368,7 +396,7 @@ hr{
     width: 100%;
   }
   .socialmedia img{
-    width: 50%;
+    width: 30%;
   }
 
 

@@ -83,8 +83,8 @@ hr{
 @media screen and (min-width: 1370px){
   .footer{
     height: 34,875rem;
-    padding-right: 15rem;
-    padding-left: 15rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     
@@ -92,8 +92,8 @@ hr{
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 17px;
-    line-height: 15px;
+    font-size: 20px;
+    line-height: 20px;
     margin: 0.5rem 0;
     cursor: pointer;
     width: auto;
@@ -102,9 +102,8 @@ hr{
     width: auto;
   }
   .lines h4{
-    font-size: 17px;
-    line-height: 17px;
-    margin-bottom: 0.9rem;
+    font-size: 23px;
+
   }
   
   .socialmedia img{
@@ -112,13 +111,21 @@ hr{
   
   }
 
+.lines .number{
+  width: 13em;
+}
 
+.lines .structure{
+  width: 12em;
+}
 
+.lines .osnova{
+  width: 9.5em;
+}
 
-
-
-
-
+.lines .question{
+  width: 12em;
+}
 
 
 
@@ -154,7 +161,7 @@ hr{
     width: auto;
   }
   .lines h4{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 0.9rem;
   }
@@ -162,6 +169,10 @@ hr{
   .socialmedia img{
     width: 50%;
   
+  }
+
+  .lines .number{
+    width: 10em;
   }
   
 }
@@ -173,15 +184,18 @@ hr{
     /* position: absolute; */
     height: 34,875rem;
     background-color: black;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+  .sources{
+    width: 100%;
   }
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 13px;
+    font-size: 15px;
     line-height: 16px;
     margin: 0.5rem 0;
     cursor: pointer;
@@ -189,7 +203,7 @@ hr{
   }
   
   .lines h4{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 15px;
     margin-bottom: 0.7rem;
   }
@@ -197,6 +211,10 @@ hr{
   .socialmedia img{
     width: 50%;
   
+  }
+
+  .lines .number{
+    width: 10em;
   }
 }
 
@@ -214,7 +232,7 @@ hr{
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 13px;
+    font-size: 14px;
     line-height: 14px;
     margin: 0.3rem 0;
     cursor: pointer;
@@ -222,7 +240,7 @@ hr{
   }
   
   .lines h4{
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     margin-bottom: 0.7rem;
   }
@@ -238,6 +256,10 @@ a{
 .socialmedia img{
   width: 50%;
 }
+
+.lines .number{
+  width: 10em;
+}
 }
 
 @media  only screen and (max-device-width:928px){
@@ -249,44 +271,59 @@ a{
     background-color: black;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 0;
-    padding-right:0;
+    padding-left: 5em;
+    padding-right:5em;
+  }
+  .lines{
+    width: 50%;
+    justify-content: center; 
+    align-items: center;
   }
   .footer .sources{
-    margin-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 5em;
     justify-content: space-around;
 
   }
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 13px;
+    font-size: 16px;
     line-height: 15px;
-    margin: 0.4rem 0;
     cursor: pointer;
     width: auto;
   }
   a{ 
     width: auto;
   }
+  a .tg{
+    width: 2.5em;
+  }
+  a .vk{
+    width: 2.5em;
+  }
   .lines h4{
-    font-size: 14px;
-    line-height: 15px;
-    margin-bottom: 0.3rem;
+    font-size: 18px;
+    line-height: 12px;    
   }
   .socialmedia{
-    display: flex;
+
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    width: 100%;
-  }
-  .socialmedia img{
     width: 50%;
   }
+  .lines {
+ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .lines .structure{width: 10em;}
   }
 
 
-@media  only screen and (max-device-width:748px){
+@media  only screen and (min-device-width:413px) and (max-device-width:748px){
   .footer{
     /* position: absolute; */
     right: 0;
@@ -302,50 +339,121 @@ a{
   .sources{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
-    margin-bottom: 0rem;
+    padding-top: 1em;
   }
-
+  .lines{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 13px;
-    line-height: 14px;
-    margin: 0.3rem 0;
+    font-size: 16px;
+    line-height: 20px;
+
     cursor: pointer;
     width: auto;  
   }
   
   .lines h4{
-    font-size: 14px;
+    font-size: 17px;
     line-height: 14px;
-    margin-bottom: 0.3rem;
     
   }
   a{width: auto;}
 
+
+  a .tg{
+    width: 3.2em;
+  }
+  a .vk{
+    width: 3.2em;
+  }
+
   .socialmedia{
-    display: flex;
-    justify-content: center;
+
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    
-  
-    width: 100%;
+    align-content: center;
+    width: 80%;
   }
-  .socialmedia img{
-    width: 40%;
-  }
-  
 
+.lines .structure{width: 10em;}
 }
 
-@media  only screen and (max-device-width:320){
+@media  only screen and (max-device-width:412px){
   .footer{
     /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0em;
+    padding-right:0em ;
+  }
+
+  .sources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    padding-top: 1em;
+  }
+  .lines{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .lines p{
+    color: rgb(175, 175, 179);
+    font-size: 14px;
+    line-height: 20px;
+
+    cursor: pointer;
+    width: auto;  
+  }
+  
+  .lines h4{
+    font-size: 17px;
+    line-height: 14px;
+    
+  }
+  a{width: auto;}
+
+
+  a .tg{
+    width: 3.2em;
+  }
+  a .vk{
+    width: 3.2em;
+  }
+
+  .socialmedia{
+
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+  }
+  .lines .number{width: 8.5em;}
+  .lines .structure{width: 10em;}
+}
+
+/* 
+  @media  only screen and (max-device-width:269px){}
+  .footer{
     right: 0;
     bottom: 0;
     left: 0;
@@ -378,30 +486,27 @@ a{
     color: rgb(175, 175, 179);
     font-size: 13px;
     line-height: 14px;
-    margin: 0.3rem 0;
+
     cursor: pointer;
     width: 17em;
   }
   
   .lines h4{
     font-size: 14px;
-    line-height: 14px;
-    margin-bottom: 0.3rem;
+    line-height: 12px;
     
   }
   .socialmedia{
+    padding-top: 0em;
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 100%;
   }
   .socialmedia img{
-    width: 30%;
+    width: 10%;
   }
 
-
-}
-
+ */
 
 
 

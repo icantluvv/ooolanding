@@ -21,7 +21,9 @@ h1{
     align-content: center;
 }
 
-
+.inside3 h1{
+    font-weight: 600;
+}
 .stol1{
     visibility: hidden;
     padding-top: 0em;
@@ -363,6 +365,7 @@ h1{
     }
 
     .inside3 h1{
+        font-weight: 600;
         font-size: 45px;
     }
     .stol{
@@ -376,7 +379,7 @@ h1{
 
 @media screen and (min-width: 1440px) and (max-width: 1940px){
     .block1{
-        display: flex;
+        display: flex;  
         position: relative;
         justify-content: center;
         align-items:center;
@@ -492,16 +495,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 27px;
+        font-size: 24px;
         width: 21em;
     }
     .opisanie2{
-        font-size: 27px;
+        font-size: 24px;
         width: 20em;
     
     }
     .opisanie3{
-        font-size: 27px;
+        font-size: 24px;
         width: 22em;
     
     }
@@ -522,7 +525,7 @@ h1{
         align-items:center;
         flex-direction: column;
         padding-top: 2em;
-        padding-bottom: 15em;
+        padding-bottom: 10em;
     }
     
     .inside3{
@@ -532,16 +535,17 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 60%;
+        width: 80%;
     }
     
     .inside3 h1{
-        font-size: 25px;
+        font-weight: 600;
+        font-size: 30px;
     }
     .stol{
         padding-top: 5em;
         padding-bottom: 5em;
-        width: 55em;
+        width: 100%;
     }
 }
 
@@ -692,7 +696,7 @@ h1{
             align-items:center;
             flex-direction: column;
             padding-top: 2em;
-            padding-bottom: 15em;
+            padding-bottom: 10em;
         }
         
         .inside3{
@@ -702,16 +706,17 @@ h1{
             align-items:center;
             align-content: center;
             flex-direction: column;
-            width: 60%;
+            width: 80%;
         }
         
         .inside3 h1{
-            font-size: 25px;
+            font-weight: 600;
+            font-size: 30px;
         }
         .stol{
             padding-top: 5em;
             padding-bottom: 5em;
-            width: 55em;
+            width: 100%;
         }
 }
 
@@ -727,7 +732,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 40vh;
+        height: 43vh;
         text-align: center;
     }
 
@@ -902,7 +907,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 38vh;
+        height: 40vh;
         text-align: center;
     }
     
@@ -1051,6 +1056,7 @@ h1{
     }
     
     .inside3 h1{
+        font-weight: 600;
         font-size: 25px;
     }
     .stol{
@@ -1073,7 +1079,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 28vh;
+        height: 33vh;
         text-align: center;
     }
     
@@ -1238,7 +1244,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 25vh;
+        height: 30vh;
         text-align: center;
     }
     
@@ -1379,7 +1385,7 @@ h1{
     }
     
     .inside3 h1{
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .stol{
@@ -1448,7 +1454,7 @@ h1{
         
         padding-left: 5em;
         padding-right: 5em;
-        font-size: 20px;
+        font-size: 17px;
     }
     
     
@@ -1556,7 +1562,7 @@ h1{
     }
     
     .inside3 h1{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .stol{
@@ -1605,7 +1611,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 25vh;
+        height: 30vh;
         text-align: center;
     }
     
@@ -1630,14 +1636,14 @@ h1{
         background-color: #0000005d;
         padding-left: 0em;
         padding-right: 0em;
-        line-height: 2em;
+        line-height: 1.5em;
     }
     
     .reqtbig h4{
         
         padding-left: 5em;
         padding-right: 5em;
-        font-size: 15px;
+        font-size: 13px;
     }
     
     
@@ -1747,7 +1753,7 @@ h1{
         width: 100%;
         justify-content: center;
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .stol{

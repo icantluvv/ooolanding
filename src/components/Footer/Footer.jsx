@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className={styles.lines}>
                             <h4>Контакты</h4>
                             <p>Почта: cleanrostovkupidon@mail.ru</p>
-                            <p>Телефон: +7(919)895-72-73</p>
+                            <p className={styles.number}>Телефон: +7(919)895-72-73</p>
                         </div>
 
                         <div className={styles.lines}>
@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className={styles.lines}>
                             <h4>Поддержка</h4>
                             <a href="">
-                                <p>Частые вопросы клиентов</p>
+                                <p className={styles.question}>Частые вопросы клиентов</p>
                             </a>
                             <a href="https://vk.com/topic-221175644_49161768">
                                 <p>Обратная связь</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
 
                         <div className={styles.lines}>
-                            <h4>Социальные сети</h4>
+                            <h4>Мессенджеры</h4>
                             <div className={styles.socialmedia}>
                                 <a href="https://vk.com/cleanrostovkupidon"><p><img src={vk} alt="" className={styles.vk}></img></p></a>
                                 <a href="https://t.me/vvhatineed"><p><img src={tg} alt="" className={styles.tg}></img></p></a>

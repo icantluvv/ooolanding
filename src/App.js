@@ -4,14 +4,16 @@ import styles from './index.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
 // import Body from "./body/Body";
+
 
 function App() {
   return (
     <>
       <div className={styles.wrapper}>
         <Header/>
-        <Main/>      
+        <Main/>
         <Footer className={styles.footermain}/>
       </div>
     </>

@@ -3,7 +3,6 @@ import React from 'react';
 import styles from './Footer.module.css';
 import tg from './tg.png'
 import vk from './vk.png'
-import yt from './yt.png'
 
 
 const Footer = () => {

@@ -4,10 +4,7 @@ body{
 
 
 .footer{
-  /* display: flex;
-  flex-direction: column; */
-  /* position: absolute; */
-  /* position: absolute; */
+
   right: 0;
   bottom: 0;
   left: 0;
@@ -43,7 +40,7 @@ body{
 a{
   color: rgb(175, 175, 179);
   text-decoration: none;
-  /* height: 20px; */
+
 }
 
 .socialmedia{
@@ -78,8 +75,6 @@ hr{
 
 
 
-
-
 @media screen and (min-width: 1370px){
   .footer{
     height: 34,875rem;
@@ -105,9 +100,14 @@ hr{
     font-size: 23px;
 
   }
-  
+  .socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .socialmedia img{
-    width: 50%;
+
+    width: 80%;
   
   }
 
@@ -135,7 +135,6 @@ hr{
 
 @media screen and (min-width: 1280px) and (max-width: 1369px) {
   .footer{
-    /* position: absolute; */
     height: 34,875rem;
     background-color: black;
     padding-right: 12rem;
@@ -151,8 +150,8 @@ hr{
 
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 17px;
+    line-height: 19px;
     margin: 0.5rem 0;
     cursor: pointer;
     width: auto;
@@ -167,7 +166,7 @@ hr{
   }
   
   .socialmedia img{
-    width: 50%;
+    width: 70%;
   
   }
 
@@ -190,13 +189,21 @@ hr{
     padding-bottom: 2rem;
   }
   .sources{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
   }
-
+  .lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .lines p{
     color: rgb(175, 175, 179);
     font-size: 15px;
-    line-height: 16px;
+    line-height: 18px;
     margin: 0.5rem 0;
     cursor: pointer;
     width: auto;
@@ -207,9 +214,13 @@ hr{
     line-height: 15px;
     margin-bottom: 0.7rem;
   }
-  
+  .socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .socialmedia img{
-    width: 50%;
+    width: 70%;
   
   }
 
@@ -222,34 +233,37 @@ hr{
 
 @media  only screen and (min-device-width:929px) and (max-device-width:1023px){
   .footer{
+    display: flex;
+    flex-direction: column;
     background-color: black;
     padding-right: 5rem;
     padding-left: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /* position: absolute; */
+
   }
 
   .lines p{
     color: rgb(175, 175, 179);
     font-size: 14px;
     line-height: 14px;
+    line-height: 17px;
     margin: 0.3rem 0;
     cursor: pointer;
     width: auto;
   }
   
   .lines h4{
-    font-size: 17px;
+    font-size: 20px;
     line-height: 15px;
     margin-bottom: 0.7rem;
   }
 a{
-  width: auto;
+  width: 10em;
 }
 .socialmedia{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
@@ -264,7 +278,7 @@ a{
 
 @media  only screen and (max-device-width:928px){
   .footer{
-    /* position: absolute; */
+
     right: 0;
     bottom: 0;
     left: 0;
@@ -287,8 +301,8 @@ a{
   }
   .lines p{
     color: rgb(175, 175, 179);
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 19px;
+    line-height: 20px;
     cursor: pointer;
     width: auto;
   }
@@ -302,7 +316,7 @@ a{
     width: 2.5em;
   }
   .lines h4{
-    font-size: 18px;
+    font-size: 22px;
     line-height: 12px;    
   }
   .socialmedia{
@@ -325,7 +339,7 @@ a{
 
 @media  only screen and (min-device-width:413px) and (max-device-width:748px){
   .footer{
-    /* position: absolute; */
+
     right: 0;
     bottom: 0;
     left: 0;
@@ -389,7 +403,7 @@ a{
 
 @media  only screen and (max-device-width:412px){
   .footer{
-    /* position: absolute; */
+ 
     right: 0;
     bottom: 0;
     left: 0;
@@ -450,63 +464,5 @@ a{
   .lines .number{width: 8.5em;}
   .lines .structure{width: 10em;}
 }
-
-/* 
-  @media  only screen and (max-device-width:269px){}
-  .footer{
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .lines{
-    width: 100%;
-    margin: 0em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    
-  }
-  .sources{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 200em;
-    text-align: center;
-    margin-bottom: 0rem;
-  }
-
-  .lines p{
-    color: rgb(175, 175, 179);
-    font-size: 13px;
-    line-height: 14px;
-
-    cursor: pointer;
-    width: 17em;
-  }
-  
-  .lines h4{
-    font-size: 14px;
-    line-height: 12px;
-    
-  }
-  .socialmedia{
-    padding-top: 0em;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  .socialmedia img{
-    width: 10%;
-  }
-
- */
-
 
 

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.bb3f2515.css",
-    "main.js": "/react-gh-pages/static/js/main.29f19b6f.js",
-    "static/media/newback.png": "/react-gh-pages/static/media/newback.fbf286da38b331c28528.png",
-    "static/media/for3card.png": "/react-gh-pages/static/media/for3card.dfe3aed72eaa031fd2ad.png",
-    "static/media/for1card.png": "/react-gh-pages/static/media/for1card.69537e6be78348671821.png",
-    "static/media/for2card.png": "/react-gh-pages/static/media/for2card.48542c6cbb32099b615e.png",
-    "static/media/forhero.png": "/react-gh-pages/static/media/forhero.eeb88cc34f54b681b32f.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.bb3f2515.css.map": "/react-gh-pages/static/css/main.bb3f2515.css.map",
-    "main.29f19b6f.js.map": "/react-gh-pages/static/js/main.29f19b6f.js.map"
+    "main.css": "/ooolanding/static/css/main.22aeaa6b.css",
+    "main.js": "/ooolanding/static/js/main.ef7bd920.js",
+    "static/media/newback.png": "/ooolanding/static/media/newback.fbf286da38b331c28528.png",
+    "static/media/for3card.png": "/ooolanding/static/media/for3card.dfe3aed72eaa031fd2ad.png",
+    "static/media/for1card.png": "/ooolanding/static/media/for1card.69537e6be78348671821.png",
+    "static/media/for2card.png": "/ooolanding/static/media/for2card.48542c6cbb32099b615e.png",
+    "static/media/forhero.png": "/ooolanding/static/media/forhero.eeb88cc34f54b681b32f.png",
+    "index.html": "/ooolanding/index.html",
+    "main.22aeaa6b.css.map": "/ooolanding/static/css/main.22aeaa6b.css.map",
+    "main.ef7bd920.js.map": "/ooolanding/static/js/main.ef7bd920.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb3f2515.css",
-    "static/js/main.29f19b6f.js"
+    "static/css/main.22aeaa6b.css",
+    "static/js/main.ef7bd920.js"
   ]
 }

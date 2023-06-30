@@ -11,8 +11,7 @@ const Main = () => {
 
 
                     <div className={styles.block1}>
-                        {/* <div className={styles.picture}><img className={styles.image} src={require('./back.png')}/></div> */}
-                        
+                       
                         <div className={styles.start}>  
 
                             <div className={styles.reqtbig}>
@@ -52,9 +51,35 @@ const Main = () => {
                     <div id='type' className={styles.block3}>
                         <div className={styles.inside3}>
                             <h1><div className={styles.type}>ВИДЫ РАБОТ</div></h1>
-                            <div className={styles.table}><img src={require('./form.png')} className={styles.stol} alt="" /></div>
-                            <div className={styles.table}><img src={require('./formphones.png')} className={styles.stol1} alt="" /></div>
-                            <div className={styles.table}><img src={require('./formmini.png')} className={styles.stol2} alt="" /></div>          
+                            <div className={styles.cards}>
+                                <div className={styles.card1}>
+                                    <div className={styles.card1pict}><img src={require('./for1card.png')} alt="" /></div>
+                                    <div className={styles.cn1}>
+                                        <div className={styles.text1}>Квартиры</div>
+                                        <p className={styles.card1op}>По договоренности</p>
+                                        <p className={styles.cost}>Стоимость зависит от площади и сложности</p>
+                                    </div>
+                                    <a href=""><div className={styles.info1}>Подробнее</div></a>
+                                </div>
+                                <div className={styles.card2}>
+                                    <div className={styles.card2pict}><img src={require('./for2card.png')} alt="" /></div>
+                                    <div className={styles.cn2}>
+                                        <div className={styles.text2}>Офисы</div>
+                                        <p className={styles.card2op}>Ежедневно</p>
+                                        <p className={styles.cost}>Стоимость зависит от площади и сложности</p>
+                                    </div>
+                                    <a href=""><div className={styles.info2}>Подробнее</div></a>
+                                </div>
+                                <div className={styles.card3}>
+                                    <div className={styles.card3pict}><img src={require('./for3card.png')} alt="" /></div>
+                                    <div className={styles.cn3}>
+                                        <div className={styles.text3}>Остекления</div>
+                                        <p className={styles.card3op}>Единорозаво</p>
+                                        <p className={styles.cost}>Стоимость зависит от площади и сложности</p>
+                                    </div>
+                                    <a href=""><div className={styles.info3}>Подробнее</div></a>
+                                </div>
+                            </div>
                         </div>
                     </div>        
                 </div>

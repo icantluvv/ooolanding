@@ -11,6 +11,7 @@ h1{
     width: 100%;
     left: 0;
     right: 0;
+    /* padding-bottom: 50%; */
 }
 
 .container{
@@ -176,7 +177,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items:center;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 2em;
     padding-bottom: 15em;
 }
@@ -184,26 +185,220 @@ h1{
 .inside3{
         
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
-    align-content: center;
-    flex-direction: column;
-    width: 60%;
+    /* align-content: flex-start; */
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid black; */
 }
 
 .inside3 h1{
+    
     font-size: 35px;
+    padding-bottom: 2em;
 }
-.stol{
+.cards{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.card2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+}
+
+
+.card3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+}
+
+
+.card1pict{
+    width: 100%;
+}
+
+.card1pict img{
+    width: 100%;
+}
+
+
+.card2pict{
+    width: 100%;
+}
+
+.card2pict img{
+    width: 100%;
+}
+
+
+.card3pict{
+    width: 100%;
+}
+
+.card3pict img{
+    width: 100%;
+}
+
+
+div .text1{
+    width: 100%;
+}
+
+
+.cn1{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cn2{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cn3{    
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text1{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+
+
+.text2{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    font-size: 22px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+
+.text3{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.cards p{
+    font-size: 18px;
+    width: 60%;
+    padding-top: 0em;
+}
+
+.cost{
+    /* padding-bottom: 10%; */
+}
+/* .stol{
     padding-top: 5em;
     padding-bottom: 5em;
     width: 70em;
+} */
+.cards a{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 10%;
+    width: 50%;
+    margin-bottom: 0em;
+}
+
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black;s */
+    height: 10%;
+    width: 50%;
 }
 
 
-
-
-
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* height: 10%; */
+    width: 50%;
+}
+.info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 50%;
+}
 
 
 @media screen and (min-width: 1940px){
@@ -251,7 +446,8 @@ h1{
 
     .reqtbig h4{
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
+        line-height: 55px;
     }
 
 
@@ -261,13 +457,13 @@ h1{
         display: flex;
         background-color: #ffffff7c;
         
-        padding-left: 6em;
+        padding-left: 3em;
         text-align: left;
         line-height: 2.5em;
     }
 
     .reqtmin p{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .noselect {
@@ -322,16 +518,16 @@ h1{
 
 
     .opisanie1{
-        font-size: 33px;
+        font-size: 38px;
         width: 24em;
     }
     .opisanie2{
-        font-size: 33px;
+        font-size: 38px;
         width: 20em;
 
     }
     .opisanie3{
-        font-size: 33px;
+        font-size: 38px;
         width: 23em;
 
     }
@@ -361,19 +557,193 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 60%;
+        width: 90%;
     }
 
     .inside3 h1{
         font-weight: 600;
         font-size: 45px;
     }
-    .stol{
+    /* .stol{
         padding-top: 5em;
         padding-bottom: 5em;
         width: 90em;
     }
+ */
 
+
+    .cards{
+        width: 100%;
+        height: 65em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    
+    .card1{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        
+    }
+    
+    .card2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4em;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4em;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4em;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 42px;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        font-size: 40px;
+        width: 60%;
+        padding-top: 0em;
+    }
+    
+    .cost{
+        /* padding-bottom: 10%; */
+    }
+    /* .stol{
+        padding-top: 5em;
+        padding-bottom: 5em;
+        width: 70em;
+    } */
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        width: 50%;
+    }
 
 }
 
@@ -407,7 +777,7 @@ h1{
     }
     
     .reqtbig{
-        width: 35em;
+        width: 45em;
         color: white;
         display: flex;
         justify-content: center;
@@ -422,7 +792,8 @@ h1{
     
     .reqtbig h4{
         text-align: center;
-        font-size: 25px;
+        font-size: 38px;
+        line-height: 50px;
     }
     
     
@@ -440,7 +811,7 @@ h1{
     }
     
     .reqtmin p{
-        font-size: 15px;
+        font-size: 23px;
     }
     
     .noselect {
@@ -495,16 +866,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 24px;
+        font-size: 27px;
         width: 21em;
     }
     .opisanie2{
-        font-size: 24px;
+        font-size: 27px;
         width: 20em;
     
     }
     .opisanie3{
-        font-size: 24px;
+        font-size: 27px;
         width: 22em;
     
     }
@@ -542,11 +913,183 @@ h1{
         font-weight: 600;
         font-size: 30px;
     }
-    .stol{
+
+    
+
+    .cards{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .card1{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 32px;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        font-size: 26px;
+        width: 80%;
+        padding-top: 0em;
+    }
+    
+    .cost{
+        /* padding-bottom: 10%; */
+    }
+    /* .stol{
         padding-top: 5em;
         padding-bottom: 5em;
-        width: 100%;
+        width: 70em;
+    } */
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
     }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width: 1439px) {
@@ -667,16 +1210,16 @@ h1{
         
         
         .opisanie1{
-            font-size: 20px;
+            font-size: 27px;
             width: 21em;
         }
         .opisanie2{
-            font-size: 20px;
+            font-size: 27px;
             width: 20em;
         
         }
         .opisanie3{
-            font-size: 20px;
+            font-size: 27px;
             width: 22em;
         
         }
@@ -718,6 +1261,173 @@ h1{
             padding-bottom: 5em;
             width: 100%;
         }
+
+
+
+        .cards{
+            width: 100%;
+            height: 50em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .card1{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            /* border: 1px solid black; */
+        }
+        
+        .card2{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            
+            /* border: 1px solid black; */
+        }
+        
+        
+        .card3{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            
+            /* border: 1px solid black; */
+        }
+        
+
+        
+        .cn1{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .cn2{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .cn3{    
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .text1{
+        
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+            font-size: 30px;
+            padding-bottom: 2em;
+            padding-top: 1em;
+            padding-left: 0em;
+            padding-right: 0em;
+        }
+        
+        
+        
+        .text2{
+        
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+            width: 100%;
+            font-size: 30px;
+            padding-top: 1em;
+            padding-bottom: 2em;
+            padding-left: 0em;
+            padding-right: 0em;
+        }
+        
+        
+        .text3{
+        
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+            font-size: 30px;
+            width: 100%;
+            padding-top: 1em;
+            padding-bottom: 2em;
+            padding-left: 0em;
+            padding-right: 0em;
+        }
+        
+        .cards p{
+            font-size: 27px;
+            width: 80%;
+            padding-top: 0em;
+        }
+
+        .cards a{
+            display: flex;
+            color: black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 1px solid black;
+            height: 10%;
+            width: 50%;
+            margin-bottom: 0em;
+        }
+        
+        .info1{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            justify-content: center;
+            /* border: 1px solid black;s */
+            height: 10%;
+            width: 50%;
+        }
+        
+        
+        .info2{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            align-items: center;
+            /* border: 1px solid black; */
+            /* height: 10%; */
+            width: 50%;
+        }
+        .info3{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            align-items: center;
+            /* border: 1px solid black; */
+            height: 10%;
+            width: 50%;
+        }
 }
 
 
@@ -732,7 +1442,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 43vh;
+        height: 50vh;
         text-align: center;
     }
 
@@ -767,7 +1477,7 @@ h1{
     }
     .reqtbig h4{
         text-align: center;
-        font-size: 23px;
+        font-size: 25px;
     }
     
     
@@ -841,16 +1551,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 22px;
+        font-size: 27px;
         width: 21em;
     }
     .opisanie2{
-        font-size: 22px;
+        font-size: 27px;
         width: 20em;
     
     }
     .opisanie3{
-        font-size: 22px;
+        font-size: 27px;
         width: 22em;
     
     }
@@ -870,7 +1580,7 @@ h1{
         align-items:center;
         flex-direction: column;
         padding-top: 0em;
-        padding-bottom: 10em;
+        padding-bottom: 0em;
     }
     
     .inside3{
@@ -886,17 +1596,189 @@ h1{
     .inside3 h1{
         font-size: 25px;
     }
-    .stol{
-        padding-top: 3em;
-        padding-bottom: 0em;
-        width: 100%;
-    }
+ 
 
+    
+
+    .cards{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .card1{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+ 
+    
+    
+    .cn1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        
+        padding-bottom: 5em;
+        text-align: center;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        padding-bottom: 5em;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 30px;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        font-size: 27px;
+        width: 90%;
+        padding-top: 0em;
+    }
+    
+ 
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
 }
+
   
 
 
 @media screen and (min-width: 920px) and (max-width: 1099px){
+    
     .block1{
         display: flex;
         position: relative;
@@ -907,7 +1789,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 40vh;
+        height: 48vh;
         text-align: center;
     }
     
@@ -926,7 +1808,7 @@ h1{
     }
     
     .reqtbig{
-        width: 25em;
+        width: 27em;
         color: white;
         display: flex;
         justify-content: center;
@@ -940,8 +1822,7 @@ h1{
     }
     .reqtbig h4{
         text-align: center;
-        
-        font-size: 18px;
+        font-size: 24px;
     }
     
     
@@ -1012,16 +1893,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 20px;
+        font-size: 24px;
         width: 21em;
     }
     .opisanie2{
-        font-size: 20px;
+        font-size: 24px;
         width: 20em;
     
     }
     .opisanie3{
-        font-size: 20px;
+        font-size: 24px;
         width: 22em;
     
     }
@@ -1042,7 +1923,7 @@ h1{
         align-items:center;
         flex-direction: column;
         padding-top: 0em;
-        padding-bottom: 7em;
+        padding-bottom: 50%;
     }
     
     .inside3{
@@ -1052,19 +1933,181 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
     
     .inside3 h1{
         font-weight: 600;
         font-size: 25px;
     }
-    .stol{
-        padding-top: 3em;
-        padding-bottom: 5em;
-        width: 100%;
-    }
 
+    
+
+    .cards{
+        width: 100%;
+        height: 160em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .card1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5em;
+    }
+    
+    .card2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+    }
+    
+    
+    .card3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    
+    .cn1{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 30px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        font-size: 24px;
+        width: 80%;
+        padding-top: 0em;
+    }
+    
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
 }
 
 
@@ -1079,7 +2122,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 33vh;
+        height: 43vh;
         text-align: center;
     }
     
@@ -1097,7 +2140,7 @@ h1{
     }
     
     .reqtbig{
-        width: 20em;
+        width: 24em;
         color: white;
         display: flex;
         background-color: #0000005d;
@@ -1109,7 +2152,7 @@ h1{
     }
     
     .reqtbig h4{
-        font-size: 15px;
+        font-size: 18px;
     }
     
     
@@ -1179,16 +2222,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 17px;
+        font-size: 24px;
         width: 15em;
     }
     .opisanie2{
-        font-size: 17px;
+        font-size: 24px;
         width: 17em;
     
     }
     .opisanie3{
-        font-size: 17px;
+        font-size: 24px;
         width: 15em;
     
     }
@@ -1209,7 +2252,7 @@ h1{
         align-items:center;
         flex-direction: column;
         padding-top: 0em;
-        padding-bottom: 7em;
+        padding-bottom: 210%;
     }
     
     .inside3{
@@ -1219,21 +2262,195 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 85%;
+        height: 100%;
+        width: 100%;
     }
     
     .inside3 h1{
-        font-size: 20px;
-    }
-    .stol{
-        padding-top: 2em;
-        padding-bottom: 2em;
-        width: 100%;
+        font-size: 27px;
     }
 
+    
+    .cards{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: flex-start;
+    }
+    
+    .card1{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5em;
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 27px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        display: flex;
+        justify-content: center ;
+        align-items: flex-start;
+        font-size: 24px;
+        width: 100%;
+        /* height: 40px; */
+        padding-bottom: 0;
+        padding-top: 0em;
+    }
+
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
 }
 
 @media screen and (max-device-width: 774px){
+    
     .block1{
         display: flex;
         position: relative;
@@ -1244,10 +2461,12 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 30vh;
+        height: 50vh;
         text-align: center;
     }
-    
+    .container{
+        padding: 0;
+    }
     .start{
         display: flex;
         justify-content: center;
@@ -1262,7 +2481,7 @@ h1{
     }
     
     .reqtbig{
-        width: 14em;
+        width: 20em;
         color: white;
         display: flex;
         background-color: #0000005d;
@@ -1274,7 +2493,7 @@ h1{
     }
     
     .reqtbig h4{
-        font-size: 14px;
+        font-size: 17px;
     }
     
     
@@ -1341,16 +2560,16 @@ h1{
     
     
     .opisanie1{
-        font-size: 15px;
+        font-size: 22px;
         width: 15em;
     }
     .opisanie2{
-        font-size: 15px;
+        font-size: 22px;
         width: 17em;
     
     }
     .opisanie3{
-        font-size: 15px;
+        font-size: 22px;
         width: 15em;
     
     }
@@ -1370,8 +2589,7 @@ h1{
         justify-content: center;
         align-items:center;
         flex-direction: column;
-        padding-top: 0em;
-        padding-bottom: 7em;
+        padding-bottom: 170%;
     }
     
     .inside3{
@@ -1381,7 +2599,7 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     }
     
     .inside3 h1{
@@ -1399,6 +2617,185 @@ h1{
         padding-top: 1em;
         padding-bottom: 2em;
         width: 100%;
+    }
+
+        
+    .cards{
+        width: 100%;
+        height: 70em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    
+    .card1{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5em;
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        font-size: 27px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 27px;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0em;
+    }
+
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
     }
 
 }
@@ -1422,7 +2819,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 40vh;
+        height: 50vh;
         text-align: center;
     }
     
@@ -1495,7 +2892,7 @@ h1{
         text-align: center;
         padding-left: 0em;
         padding-right: 0em;
-        width: 60%;
+        width: 70%;
         line-height: 2em;
     
     }
@@ -1514,17 +2911,17 @@ h1{
     
     
     .opisanie1{
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
     }
     .opisanie2{
         
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
     
     }
     .opisanie3{
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
     
     }
@@ -1546,9 +2943,7 @@ h1{
         justify-content: center;
         align-items:center;
         flex-direction: column;
-        padding-top: 0em;
-
-        padding-bottom: 7em;
+        padding-bottom: 280%;
     }
     
     .inside3{
@@ -1558,38 +2953,199 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     }
     
     .inside3 h1{
-        font-size: 18px;
+        font-size: 23px;
     }
 
-    .stol{
-        visibility: hidden;
-        padding-top: 0em;
-        padding-bottom: 0em;
-        width: 0em;
-    }
-    .stol1{
-        visibility: hidden;
-        padding-top: 0em;
-        padding-bottom: 0em;
-        width: 0em;
+
+
+
+
+
+        
+    .cards{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        justify-content: flex-start;
     }
     
-    .stol2{
+    .card1{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5em;
         
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        /* width: 100%; */
+        font-size: 24px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        display: flex;
         justify-content: center;
         align-items: center;
-        align-content: center;
-        visibility: visible;
+        text-align: left;
+        font-size: 20px;
+        width: 90%;
+        /* height: 40px; */
+        padding-bottom: 0;
+        text-align: center;
         padding-top: 0em;
-        padding-bottom: 3em;
-        width: 100%;
     }
 
-
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
 }
 
 @media screen and (max-device-width: 355px){
@@ -1611,7 +3167,7 @@ h1{
         background-image: url(./newback.png);
         background-size: cover;
         width: 100%; 
-        height: 30vh;
+        height: 40vh;
         text-align: center;
     }
     
@@ -1703,17 +3259,17 @@ h1{
     
     
     .opisanie1{
-        font-size: 14px;
+        font-size: 20px;
         width: 100%;
     }
     .opisanie2{
         
-        font-size: 14px;
+        font-size: 20px;
         width: 100%;
     
     }
     .opisanie3{
-        font-size: 14px;
+        font-size: 20px;
         width: 100%;
     
     }
@@ -1736,7 +3292,7 @@ h1{
         align-items:center;
         flex-direction: column;
         padding-top: 0em;
-        padding-bottom: 7em;
+        padding-bottom: 20%;
     }
     
     .inside3{
@@ -1746,35 +3302,194 @@ h1{
         align-items:center;
         align-content: center;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     }
     
     .inside3 h1{
         width: 100%;
         justify-content: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 22px;
     }
 
-    .stol{
-        visibility: hidden;
-        padding-top: 0em;
-        padding-bottom: 0em;
-        width: 0em;
-    }
-    .stol1{
-        visibility: hidden;
-        padding-top: 0em;
-        padding-bottom: 0em;
-        width: 0em;
+
+        
+    .cards{
+        width: 100%;
+        height: 100em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
-    .stol2{
-        visibility: visible;
-        padding-top: 0em;
-        padding-bottom: 0em;
+    .card1{
         width: 100%;
+        height: 50em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5em;
+        /* border: 1px solid black; */
+    }
+    
+    .card2{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    .card3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 5em;
+        
+        /* border: 1px solid black; */
+    }
+    
+    
+    
+
+    
+    .cn1{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn2{
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cn3{    
+        width: 100%;
+        height: 20em;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text1{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    
+    .text2{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        /* width: 100%; */
+        font-size: 24px;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    
+    .text3{
+    
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .cards p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        width: 90%;
+        /* height: 40px; */
+        padding-bottom: 0;
+        padding-top: 0em;
     }
 
+    .cards a{
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid black;
+        height: 10%;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+    
+    .info1{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        justify-content: center;
+        /* border: 1px solid black;s */
+        height: 10%;
+        width: 50%;
+    }
+    
+    
+    .info2{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        align-items: center;
+        /* border: 1px solid black; */
+        /* height: 10%; */
+        width: 50%;
+    }
+    .info3{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        align-items: center;
+        /* border: 1px solid black; */
+        height: 10%;
+        width: 50%;
+    }
 
 }

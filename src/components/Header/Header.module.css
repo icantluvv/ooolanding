@@ -166,7 +166,7 @@ a h4{
   }
 
   .burger h4{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     margin-bottom: 0.9rem;
     padding-left: 2rem;
@@ -189,7 +189,7 @@ a h4{
         padding-left: 7rem;
     }
     .burger h4{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
         margin-bottom: 0.9rem;
         padding-right: 2rem;
@@ -199,119 +199,122 @@ a h4{
 }
  
 
-@media  only screen and (max-device-width:725px){
-  .header{
-      
-      left: 0;
-      right: 0;
-      top: 0;
-      background-color: white;
-      padding-right: 4em;
-      padding-left: 4em;
-  }
-  .burger h4{
-      font-size: 10.5px;
-      line-height: 15px;
-      margin-bottom: 0.9rem;
-
-  }
-}
-
-
-
-
-@media  only screen and (max-device-width:599px){
+@media  only screen and (min-device-width: 401px) and (max-device-width:725px){
 .header{
-    visibility: hidden;
-    width: 0;
-    height: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: black;
+  width: 100%;  
+  height: 14em;
+  display: flex;
+  background: black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+  padding: 0;
+  margin: 0;
 }
+.logocont{
+  width: 0%;
+  visibility: hidden;
+  margin: 0;
+  height: 0em;
+}
+  
+.logocont img{
+  width: 0em;
+}
+.hr{
+  width: 0%;
+  margin: 0;
+  height: 0em;
+  visibility: hidden;
+}
+
+.container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  flex-direction: row;
+}
+
+.sources{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.burger{
+  display: flex;
+  flex-direction: column;
+}
+.burger h4{
+  color: white;
+}
+}
+
+
+
+
+
+
+@media  only screen and (max-device-width:400px){
+  .header{
+    width: 100%;  
+    height: 20em;
+    display: flex;
+    background: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  
+    padding: 0;
+    margin: 0;
+  }
+  .logocont{
+    width: 0%;
+    visibility: hidden;
+    margin: 0;
+    height: 0em;
+  }
+    
+  .logocont img{
+    width: 0em;
+  }
+  .hr{
+    width: 0%;
+    margin: 0;
+    height: 0em;
+    visibility: hidden;
+  }
   
   .container{
+    
     display: flex;
-    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    flex-direction: row;
   }
-
+  
   .sources{
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    text-align: left;
-
-  }
-
-  .hr{
-    width: 0;
-    margin: 0;
-    height: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-  }
-
-  .logocont{
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
   }
   
-  .logocont img{
-
-    width: 5em;
-    
-  }
-
-
-
-
   .burger{
-    order: -1;
-    width: 13em;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
   }
-  
-  a{
-    color: rgb(175, 175, 179);
-    text-decoration: none;
-  }
-  
   .burger h4{
-    font-size: 14px;
-    line-height: 17px;
-
     color: white;
-    padding-left: 0;
-    padding-right: 0;
+    font-size: 15px;
+    line-height: 20px;
   }
 
-  .about{
-    width: 3em;
-  }
-
-  .types{
-    width: 6em;
-  }
-  .contacts{
-    width: 5.4em;
-  }
-  .os{
-    width: 4.2em;
-  }
 }
-
-
-
-

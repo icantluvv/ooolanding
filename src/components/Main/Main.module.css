@@ -1,8 +1,6 @@
 body{
-
     width: 100%;
 }
-
 h1{
     font-weight: 500;
 }
@@ -11,7 +9,6 @@ h1{
     width: 100%;
     left: 0;
     right: 0;
-    /* padding-bottom: 50%; */
 }
 
 .container{
@@ -21,7 +18,6 @@ h1{
     align-items: center;
     align-content: center;
 }
-
 .inside3 h1{
     font-weight: 600;
 }
@@ -31,14 +27,12 @@ h1{
     padding-bottom: 0em;
     width: 0em;
 }
-
 .stol2{
     visibility: hidden;
     padding-top: 0em;
     padding-bottom: 0em;
     width: 0em;
 }
-
 
 
 .block1{
@@ -51,7 +45,6 @@ h1{
     background-image: url(./newback.png);
     background-size: cover;
     width: 100%; 
-    /* height: 100vh; */
     text-align: center;
 }
 
@@ -108,10 +101,6 @@ h1{
 }
 
 
-
-
-
-
 .block2{
     width: 100%;
     display: flex;
@@ -123,27 +112,20 @@ h1{
 }
 
 .inside2{
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 0em;
     padding-right: 0em;
     width: 60%;
-
 }
 
 .bord{
-    
     display: inline-block;
-
     width: 50%;
-    
 }
 .picture2{
-    
     display: inline-block;
-
     width: 50%;
     order: 2;
 }
@@ -164,12 +146,9 @@ h1{
 
 }
 
-
 .picture2 img{
     width: 30em;
 }
-
-
 
 
 .block3{
@@ -183,19 +162,15 @@ h1{
 }
 
 .inside3{
-        
     display: flex;
     justify-content: space-around;
     align-items:center;
-    /* align-content: flex-start; */
     flex-direction: row;
     width: 100%;
     text-align: center;
-    /* border: 1px solid black; */
 }
 
 .inside3 h1{
-    
     font-size: 35px;
     padding-bottom: 2em;
 }
@@ -214,7 +189,6 @@ h1{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    /* border: 1px solid black; */
 }
 
 .card2{
@@ -224,8 +198,6 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
-    /* border: 1px solid black; */
 }
 
 
@@ -236,8 +208,6 @@ h1{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
-    /* border: 1px solid black; */
 }
 
 
@@ -249,15 +219,12 @@ h1{
     width: 100%;
 }
 
-
 .card2pict{
     width: 100%;
 }
-
 .card2pict img{
     width: 100%;
 }
-
 
 .card3pict{
     width: 100%;
@@ -266,7 +233,6 @@ h1{
 .card3pict img{
     width: 100%;
 }
-
 
 div .text1{
     width: 100%;
@@ -353,14 +319,7 @@ div .text1{
     padding-top: 0em;
 }
 
-.cost{
-    /* padding-bottom: 10%; */
-}
-/* .stol{
-    padding-top: 5em;
-    padding-bottom: 5em;
-    width: 70em;
-} */
+
 .cards a{
     display: flex;
     color: black;
@@ -701,14 +660,7 @@ div .text1{
         padding-top: 0em;
     }
     
-    .cost{
-        /* padding-bottom: 10%; */
-    }
-    /* .stol{
-        padding-top: 5em;
-        padding-bottom: 5em;
-        width: 70em;
-    } */
+
     .cards a{
         display: flex;
         color: black;
@@ -1040,14 +992,6 @@ div .text1{
         padding-top: 0em;
     }
     
-    .cost{
-        /* padding-bottom: 10%; */
-    }
-    /* .stol{
-        padding-top: 5em;
-        padding-bottom: 5em;
-        width: 70em;
-    } */
     .cards a{
         display: flex;
         color: black;
@@ -1424,7 +1368,6 @@ div .text1{
             justify-content: center;
             font-size: 20px;
             align-items: center;
-            /* border: 1px solid black; */
             height: 10%;
             width: 50%;
         }
@@ -3223,10 +3166,6 @@ div .text1{
 
     
     
-    
-    
-    
-    
     .block2{
         width: 100%;
         display: flex;
@@ -3316,6 +3255,7 @@ div .text1{
         justify-content: center;
         text-align: center;
         font-size: 22px;
+        padding-bottom: 4em;
     }
 
 
@@ -3338,7 +3278,6 @@ div .text1{
         align-items: center;
         flex-direction: column;
         padding-bottom: 5em;
-        /* border: 1px solid black; */
     }
     
     .card2{
@@ -3350,7 +3289,6 @@ div .text1{
         align-items: center;
         padding-bottom: 5em;
         
-        /* border: 1px solid black; */
     }
     
     
@@ -3363,7 +3301,6 @@ div .text1{
         align-items: center;
         padding-bottom: 5em;
         
-        /* border: 1px solid black; */
     }
     
     
@@ -3421,7 +3358,6 @@ div .text1{
         justify-content: center;
         text-align: center;
         font-weight: 600;
-        /* width: 100%; */
         font-size: 24px;
         padding-top: 2em;
         padding-bottom: 1em;
@@ -3451,7 +3387,6 @@ div .text1{
         text-align: center;
         font-size: 20px;
         width: 90%;
-        /* height: 40px; */
         padding-bottom: 0;
         padding-top: 0em;
     }
@@ -3473,7 +3408,6 @@ div .text1{
         align-items: center;
         font-size: 16px;
         justify-content: center;
-        /* border: 1px solid black;s */
         height: 10%;
         width: 50%;
     }
@@ -3484,8 +3418,6 @@ div .text1{
         justify-content: center;
         font-size: 16px;
         align-items: center;
-        /* border: 1px solid black; */
-        /* height: 10%; */
         width: 50%;
     }
     .info3{
@@ -3493,7 +3425,6 @@ div .text1{
         justify-content: center;
         font-size: 16px;
         align-items: center;
-        /* border: 1px solid black; */
         height: 10%;
         width: 50%;
     }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ooolanding/static/css/main.22aeaa6b.css",
+    "main.css": "/ooolanding/static/css/main.91142aca.css",
     "main.js": "/ooolanding/static/js/main.ef7bd920.js",
     "static/media/newback.png": "/ooolanding/static/media/newback.fbf286da38b331c28528.png",
     "static/media/for3card.png": "/ooolanding/static/media/for3card.dfe3aed72eaa031fd2ad.png",
@@ -8,11 +8,11 @@
     "static/media/for2card.png": "/ooolanding/static/media/for2card.48542c6cbb32099b615e.png",
     "static/media/forhero.png": "/ooolanding/static/media/forhero.eeb88cc34f54b681b32f.png",
     "index.html": "/ooolanding/index.html",
-    "main.22aeaa6b.css.map": "/ooolanding/static/css/main.22aeaa6b.css.map",
+    "main.91142aca.css.map": "/ooolanding/static/css/main.91142aca.css.map",
     "main.ef7bd920.js.map": "/ooolanding/static/js/main.ef7bd920.js.map"
   },
   "entrypoints": [
-    "static/css/main.22aeaa6b.css",
+    "static/css/main.91142aca.css",
     "static/js/main.ef7bd920.js"
   ]
 }
